@@ -19,27 +19,12 @@ React :
 
 Vue:
 
-......
 freeCodeCamp:
 幻灯片5
-	What ?
+What ?
 幻灯片6
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 幻灯片7
-
 
 Including a badge from "Inch-CI" .
 
@@ -180,43 +165,19 @@ Security
 3. Create a GitHub Integration for your Project
 Click on the button to create a GitHub Integration:
 
-
-
-
-
-
-
-
 You will be re-directed to a GitHub "Auth" (Login) Page.
 Login and authorize Node Security Project to access your account. Remember to grant authorization for the org where you project is (if applicable):
 Then click on the Authorize Application button at the bottom of the page: 
 
-
-
-
-
-
-
-
 幻灯片22
 Security
 
-
 3. Create a GitHub Integration for your Project
 Once you do this you will be re-directed back to https://nodesecurity.io/orgs/dwyl/github/  where you will need to select the Org again .
 You will then be presented with a list of projects.
 In our case we are enabling NSP Live checking for our hapi-auth-jwt2 project:
 
-
-
 Once you click the Submit button you're done! You should see the following message:
-
-
-
-
-
-
-
 
 幻灯片23
 Security
@@ -227,47 +188,20 @@ Security
 
 Going back to your "Projects" page you will see:
 
-
-
-
-
 So you know it's working ! 
-
-
-
 
 幻灯片24
 Security
-
 
 4. Show the badge on your Project
 Click on the project link and then on the badge:
 Copy the Markdown code shown which includes the unique token for your project. and paste it into the README.md of your project. e.g: NSP Status
 
-
-
-
-
-
-
-
-
-
-
-
-
 幻灯片25
 Security
 
-
 Note :
  just having a 3rd party service telling you there aren't any know vulnerabilities does not guarantee that your app is "secure"! You still need to write good code that escapes all input and follows "best practice"! But the nsp badge & service is a useful early warning system.
-
-
-
-
-
-
 
 幻灯片26
 Continuous Integration
@@ -287,72 +221,32 @@ Continuous Integration
 运行时的版本
 构建前要执行哪些命令或脚本
 
-
-
 .travis.yml
 
 幻灯片28
 Continuous Integration
 
-
 To get started with Travis CI: #
  4. 检查 build status ，查看生成是否通过或失败。
-
-
-
-
 
 幻灯片29
 CodeClimate 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 幻灯片30
 CodeClimate 
 
-
-
-
-
-
-
-
 幻灯片31
 CodeClimate 
-
-
-
-
-
 
 幻灯片32
 Documentation 
 
 Visit:  http://inch-ci.org/learn_more  and paste your GitHub username (or organisation name) and repository name into the form then click Evaluate.
-
 
 幻灯片33
 Documentation 
 
-
 Then you can copy the badge directly from the resulting page. e.g:
-
-
-
-
-
-
 
 幻灯片34
 JavaScript the goodparts (code style/linting)  
@@ -362,7 +256,6 @@ JavaScript the goodparts (code style/linting)
    $ npm install goodparts --save-dev
 Then add the following script to your package.json :
 
-
 {
   "lint": "node_modules/.bin/goodparts path/to/files/for/linting"
 }
@@ -370,10 +263,7 @@ JavaScript the goodparts (code style/linting)
 JavaScript the goodparts (code style/linting)  
 
 Now when you run the command:
-
-
    $ npm run lint
-
 
 幻灯片36
 goodparts - Autofix  
@@ -382,10 +272,6 @@ goodparts - Autofix
 
    $  node_modules/.bin/goodparts /path/to/dir --fix
 Example: (fixing the linting "errors" from the example above)
-
-
-
-
 
 Note:  --fix  只修复缺少分号的问题，但不能删除额外的（未使用的）被定义的变量。
 
