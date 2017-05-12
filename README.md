@@ -34,8 +34,8 @@
 
 ## 二. Test tools
 
-### Mocha   -a feature-rich JavaScript test framework running on Node.js and in the browser
+ Mocha   -a feature-rich JavaScript test framework running on Node.js and in the browser
 
-### Chai   -a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+ Chai   -a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
 
-### Istanbul   -a JS code coverage tool written in JS
+ Istanbul   -a JS code coverage tool written in JS
