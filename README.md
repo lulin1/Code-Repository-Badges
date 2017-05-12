@@ -1,6 +1,8 @@
 # Code-Repository-Badges
 ## 代码徽章中文版入门讲解。
 
+一 Badges
+
 ## Security [![NSP Status](https://nodesecurity.io/orgs/420-pro/projects/ef02c63d-3322-4543-b941-1c44be6fc6cb/badge)](https://nodesecurity.io/orgs/420-pro/projects/ef02c63d-3322-4543-b941-1c44be6fc6cb)
 
 
@@ -30,3 +32,10 @@
 
 ## Contributing  [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
+二 Test tools
+
+## Mocha -a feature-rich JavaScript test framework running on Node.js and in the browser
+
+## Chai -a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+
+## Istanbul -a JS code coverage tool written in JS
